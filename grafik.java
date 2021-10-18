@@ -32,9 +32,9 @@ public class grafik extends JPanel   {
 					
 
                     try {
-                        img0 = ImageIO.read(new File("java_genetik_algoritma_flappybird_ai\\pipe.png"));
-                        img1 = ImageIO.read(new File("java_genetik_algoritma_flappybird_ai\\\\pipe_ters.png"));
-                        img2 = ImageIO.read(new File("java_genetik_algoritma_flappybird_ai\\\\ghost0.png"));
+                        img0 = ImageIO.read(new File("images\\pipe.png"));
+                        img1 = ImageIO.read(new File("images\\pipe_ters.png"));
+                        img2 = ImageIO.read(new File("images\\ghost0.png"));
 
                     } catch (IOException e) {
                     	System.out.print("x");
